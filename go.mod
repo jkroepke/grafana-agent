@@ -39,7 +39,7 @@ require (
 	github.com/go-sourcemap/sourcemap v2.1.3+incompatible
 	github.com/go-sql-driver/mysql v1.7.0
 	github.com/gogo/protobuf v1.3.2
-	github.com/golang/protobuf v1.5.2
+	github.com/golang/protobuf v1.5.3
 	github.com/golang/snappy v0.0.4
 	github.com/google/cadvisor v0.44.0
 	github.com/google/dnsmasq_exporter v0.0.0-00010101000000-000000000000
@@ -114,14 +114,14 @@ require (
 	github.com/prometheus-community/elasticsearch_exporter v1.5.0
 	github.com/prometheus-community/postgres_exporter v0.11.1
 	github.com/prometheus-community/stackdriver_exporter v0.13.0
-	github.com/prometheus-community/windows_exporter v0.0.0-00010101000000-000000000000
+	github.com/prometheus-community/windows_exporter v0.22.0
 	github.com/prometheus-operator/prometheus-operator v0.62.0
 	github.com/prometheus-operator/prometheus-operator/pkg/apis/monitoring v0.63.0
 	github.com/prometheus-operator/prometheus-operator/pkg/client v0.63.0
 	github.com/prometheus/blackbox_exporter v0.22.1-0.20220920154026-3446984d6a6e
-	github.com/prometheus/client_golang v1.14.0
+	github.com/prometheus/client_golang v1.15.0
 	github.com/prometheus/client_model v0.3.0
-	github.com/prometheus/common v0.39.0
+	github.com/prometheus/common v0.42.0
 	github.com/prometheus/consul_exporter v0.8.0
 	github.com/prometheus/memcached_exporter v0.10.0
 	github.com/prometheus/mysqld_exporter v0.14.0
@@ -137,7 +137,7 @@ require (
 	github.com/sijms/go-ora/v2 v2.5.24
 	github.com/sirupsen/logrus v1.9.0
 	github.com/spf13/cobra v1.6.1
-	github.com/stretchr/testify v1.8.1
+	github.com/stretchr/testify v1.8.2
 	github.com/uber/jaeger-client-go v2.30.0+incompatible
 	github.com/vincent-petithory/dataurl v1.0.0
 	github.com/weaveworks/common v0.0.0-20221201103051-7c2720a9024d
@@ -165,16 +165,16 @@ require (
 	go.uber.org/goleak v1.2.0
 	go.uber.org/multierr v1.8.0
 	go.uber.org/zap v1.24.0
-	golang.org/x/crypto v0.5.0
+	golang.org/x/crypto v0.7.0
 	golang.org/x/exp v0.0.0-20230124195608-d38c7dcee874
 	golang.org/x/net v0.8.0
 	golang.org/x/oauth2 v0.6.0
-	golang.org/x/sys v0.6.0
+	golang.org/x/sys v0.7.0
 	golang.org/x/text v0.8.0
 	golang.org/x/time v0.3.0
 	google.golang.org/api v0.109.0
 	google.golang.org/grpc v1.52.3
-	google.golang.org/protobuf v1.28.1
+	google.golang.org/protobuf v1.30.0
 	gopkg.in/alecthomas/kingpin.v2 v2.2.6
 	gopkg.in/yaml.v2 v2.4.0
 	gopkg.in/yaml.v3 v3.0.1
@@ -210,7 +210,7 @@ require (
 	github.com/Azure/azure-storage-blob-go v0.15.0 // indirect
 	github.com/Azure/go-ansiterm v0.0.0-20210617225240-d185dfc1b5a1 // indirect
 	github.com/Azure/go-autorest v14.2.0+incompatible // indirect
-	github.com/Azure/go-autorest/autorest v0.11.28 // indirect
+	github.com/Azure/go-autorest/autorest v0.11.28
 	github.com/Azure/go-autorest/autorest/adal v0.9.22 // indirect
 	github.com/Azure/go-autorest/autorest/azure/auth v0.5.12 // indirect
 	github.com/Azure/go-autorest/autorest/azure/cli v0.4.6 // indirect
@@ -227,13 +227,14 @@ require (
 	github.com/Masterminds/goutils v1.1.1 // indirect
 	github.com/Masterminds/semver/v3 v3.2.0 // indirect
 	github.com/Microsoft/go-winio v0.5.2 // indirect
-	github.com/Microsoft/hcsshim v0.9.6 // indirect
+	github.com/Microsoft/hcsshim v0.9.8 // indirect
 	github.com/Nvveen/Gotty v0.0.0-20120604004816-cd527374f1e5 // indirect
 	github.com/ProtonMail/go-crypto v0.0.0-20210920160938-87db9fbc61c7 // indirect
 	github.com/Shopify/ejson v1.3.1 // indirect
 	github.com/StackExchange/wmi v1.2.1 // indirect
 	github.com/VividCortex/gohistogram v1.0.0 // indirect
 	github.com/acomagu/bufpipe v1.0.3 // indirect
+	github.com/alecthomas/kingpin/v2 v2.3.2
 	github.com/alecthomas/template v0.0.0-20190718012654-fb15b899a751 // indirect
 	github.com/andybalholm/brotli v1.0.4 // indirect
 	github.com/antonmedv/expr v1.9.0 // indirect
@@ -320,7 +321,7 @@ require (
 	github.com/gabriel-vasile/mimetype v1.4.1 // indirect
 	github.com/go-git/gcfg v1.5.0 // indirect
 	github.com/go-git/go-billy/v5 v5.3.1 // indirect
-	github.com/go-git/go-git/v5 v5.4.2 // indirect
+	github.com/go-git/go-git/v5 v5.4.2
 	github.com/go-kit/kit v0.12.0 // indirect
 	github.com/go-logr/stdr v1.2.2 // indirect
 	github.com/go-ole/go-ole v1.2.6 // indirect
@@ -432,7 +433,7 @@ require (
 	github.com/krallistic/kazoo-go v0.0.0-20170526135507-a15279744f4e // indirect
 	github.com/kylelemons/godebug v1.1.0 // indirect
 	github.com/leodido/ragel-machinery v0.0.0-20181214104525-299bdde78165 // indirect
-	github.com/leoluk/perflib_exporter v0.1.0 // indirect
+	github.com/leoluk/perflib_exporter v0.2.0 // indirect
 	github.com/liggitt/tabwriter v0.0.0-20181228230101-89fcab3d43de // indirect
 	github.com/linode/linodego v1.12.0 // indirect
 	github.com/lufia/iostat v1.2.1 // indirect
@@ -501,7 +502,7 @@ require (
 	github.com/prometheus-community/prom-label-proxy v0.5.0 // indirect
 	github.com/prometheus/alertmanager v0.25.0 // indirect
 	github.com/prometheus/common/sigv4 v0.1.0 // indirect
-	github.com/prometheus/exporter-toolkit v0.8.2 // indirect
+	github.com/prometheus/exporter-toolkit v0.9.1 // indirect
 	github.com/rcrowley/go-metrics v0.0.0-20201227073835-cf1acfcdf475 // indirect
 	github.com/remeh/sizedwaitgroup v1.0.0 // indirect
 	github.com/renier/xmlrpc v0.0.0-20170708154548-ce4a1a486c03 // indirect
@@ -604,6 +605,7 @@ require (
 	github.com/spaolacci/murmur3 v1.1.0 // indirect
 	github.com/willf/bitset v1.1.11 // indirect
 	github.com/willf/bloom v2.0.3+incompatible // indirect
+	github.com/xhit/go-str2duration/v2 v2.1.0 // indirect
 )
 
 // NOTE: replace directives below must always be *temporary*.
@@ -657,7 +659,6 @@ replace (
 	// Upstream seems to be inactive, see https://github.com/grafana/agent/issues/1845
 	github.com/infinityworks/github-exporter => github.com/grafana/github-exporter v0.0.0-20230418063919-fa34e926116a
 	github.com/prometheus-community/postgres_exporter => github.com/grafana/postgres_exporter v0.8.1-0.20210722175051-db35d7c2f520
-	github.com/prometheus-community/windows_exporter => github.com/grafana/windows_exporter v0.15.1-0.20220202211901-871715ba0b43
 	github.com/prometheus/mysqld_exporter => github.com/grafana/mysqld_exporter v0.12.2-0.20201015182516-5ac885b2d38a
 	github.com/prometheus/snmp_exporter => github.com/grafana/snmp_exporter v0.20.1-0.20220405135227-49087c510bb1
 
@@ -679,9 +680,6 @@ replace (
 	go.opentelemetry.io/collector/exporter/otlphttpexporter => github.com/grafana/opentelemetry-collector/exporter/otlphttpexporter v0.0.0-20230412190723-62ec42799a7d
 	go.opentelemetry.io/collector/pdata => github.com/grafana/opentelemetry-collector/pdata v0.0.0-20230412190723-62ec42799a7d
 )
-
-// Replacement necessary for windows_exporter so that we can use gokit logging and not the old prometheus logging
-replace github.com/leoluk/perflib_exporter v0.1.0 => github.com/grafana/perflib_exporter v0.1.1-0.20211013152516-e37e14fb8b0a
 
 // Required until fork merged upstream for dynamic configuration support
 replace github.com/hairyhenderson/gomplate/v3 => github.com/mattdurham/gomplate/v3 v3.10.1-0.20220204190650-af65008b9bb1
@@ -710,3 +708,5 @@ replace github.com/prometheus/procfs => github.com/prometheus/procfs v0.8.0
 
 // TODO(rfratto): remove once prometheus/common#472 is merged.
 replace github.com/prometheus/common => github.com/grafana/prometheus-common v0.39.1-0.20230411174203-bcb00f1c26d7
+
+replace github.com/prometheus-community/windows_exporter v0.22.0 => github.com/jkroepke/windows_exporter v0.0.0-20230423133106-f7f3209490ad
